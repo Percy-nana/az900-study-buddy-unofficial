@@ -51,7 +51,7 @@ Keep the question data in one easy-to-edit array.
 
 **Step 3: Study Buddy data.** Asked Bolt to stop using any external API and use a supplied JSON file of 27 topics instead: search with autocomplete, topic chips grouped by domain, a style dropdown that controls which sections show, a language dropdown that shows a translation when one exists (otherwise English with a note), and clear "draft translation" and "confirm on Microsoft Learn" notices.
 
-## 3. Content-generation and review prompts (Claude)
+## 3. Content-generation and review prompts
 
 1. **Plan review:** "Review this plan against the AZ-900 skills outline and flag anything inaccurate or mis-categorised." This caught the resource-group "billing" wording, the wrong category names (now the three official domains), and the API-key exposure risk.
 2. **Questions:** "Write original AZ-900 questions tagged cloud / arch / gov. Every option needs its own one-sentence explanation of why it is right or wrong. Do not reproduce real exam questions."
